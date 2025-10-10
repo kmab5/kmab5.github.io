@@ -270,6 +270,37 @@ button {
 }
 .form-actions { display: flex; gap: 12px; }
 
+/* Social buttons in contact section */
+.socials { margin-top: var(--space-sm); display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+.socials .muted { color: var(--muted); margin: 0 0 0.5rem 0; font-size: var(--fs-sm); }
+.social-buttons { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent 82%);
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: transform var(--transition-fast), background-color var(--transition), color var(--transition), border-color var(--transition);
+}
+.social:hover, .social:focus-visible {
+  transform: translateY(-3px);
+  background: var(--fg);
+  color: var(--bg);
+  border-color: transparent;
+}
+
+@media (max-width: 48rem) {
+  .socials { align-items: stretch; }
+  .social-buttons { justify-content: flex-start; }
+  .social { flex: 1 1 auto; }
+}
+
 /* Footer */
 .site-footer { border-top: 1px solid color-mix(in srgb, var(--fg) 12%, transparent 88%); padding: calc(var(--space-md) + 0.5rem) 0; color: var(--muted); }
 
