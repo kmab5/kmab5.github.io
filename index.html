@@ -1,118 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Samuel W. Getaneh — Portfolio</title>
-  <meta name="description" content="Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach.">
-  <meta name="keywords" content="Samuel W. Getaneh, Samuel Getaneh, portfolio, full stack, front end, JavaScript, accessibility, performance">
-  <meta name="author" content="Samuel W. Getaneh">
-  <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#0a0a0a">
-  <link rel="canonical" href="https://kmab5.github.io/">
-  <link rel="icon" type="image/png" href="favico.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="favico.png">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samuel W. Getaneh — Portfolio</title>
+    <meta
+      name="description"
+      content="Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach."
+    />
+    <meta
+      name="keywords"
+      content="Samuel W. Getaneh, Samuel Getaneh, portfolio, full stack, front end, JavaScript, accessibility, performance"
+    />
+    <meta name="author" content="Samuel W. Getaneh" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="canonical" href="https://kmab5.github.io/" />
+    <link rel="icon" type="image/png" href="favico.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="favico.png" />
 
-  <!-- Open Graph / Twitter -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Samuel W. Getaneh — Portfolio">
-  <meta property="og:description" content="Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach.">
-  <meta property="og:url" content="https://kmab5.github.io/">
-  <meta property="og:image" content="https://kmab5.github.io/lambdadark.png">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="Samuel W. Getaneh">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@kmab_5">
-  <meta name="twitter:title" content="Samuel W. Getaneh — Portfolio">
-  <meta name="twitter:description" content="Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach.">
-  <meta name="twitter:image" content="https://kmab5.github.io/lambdadark.png">
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Samuel W. Getaneh — Portfolio" />
+    <meta
+      property="og:description"
+      content="Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach."
+    />
+    <meta property="og:url" content="https://kmab5.github.io/" />
+    <meta
+      property="og:image"
+      content="https://kmab5.github.io/lambdadark.png"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Samuel W. Getaneh" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@kmab_5" />
+    <meta name="twitter:title" content="Samuel W. Getaneh — Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach."
+    />
+    <meta
+      name="twitter:image"
+      content="https://kmab5.github.io/lambdadark.png"
+    />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <!-- Typography: Montserrat (headings) & Cabin (body) -->
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Typography: Montserrat (headings) & Cabin (body) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Montserrat:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  <script type="importmap">
-    {
-      "imports": {
-        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    <link rel="stylesheet" href="style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
       }
-    }
-  </script>
-  <script type="module" src="script.js"></script>
-</head>
-<body>
-  <a class="skip-link" href="#home">Skip to content</a>
+    </script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
 
-  <!-- Cursor follower (decorative) -->
-  <div class="cursor-follower" aria-hidden="true"></div>
+    <!-- Cursor follower (decorative) -->
+    <div class="cursor-follower" aria-hidden="true"></div>
 
-  <header class="site-header" role="banner">
-    <nav class="site-nav" aria-label="Primary">
-      <a class="brand" href="#home" aria-label="Go to home">Samuel W. Getaneh</a>
-      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">☰</button>
-      <ul id="nav-menu" class="nav-links" role="list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle theme" type="button">◐</button>
-    </nav>
-  </header>
+    <header class="site-header" role="banner">
+      <nav class="site-nav" aria-label="Primary">
+        <a class="brand" href="#home" aria-label="Go to home"
+          >Samuel W. Getaneh</a
+        >
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle navigation"
+        >
+          ☰
+        </button>
+        <ul id="nav-menu" class="nav-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Toggle light/dark mode"
+          title="Toggle theme"
+          type="button"
+        >
+          ◐
+        </button>
+      </nav>
+    </header>
 
-  <main id="home" tabindex="-1">
-    <!-- Hero -->
-    <section class="section hero" aria-labelledby="hero-heading">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <h1 id="hero-heading" class="title reveal">Samuel W. Getaneh</h1>
-          <p class="subtitle reveal" data-delay="0.1">Beginner Full-Stack (Front-End-Focused) Developer</p>
-          <p class="lede reveal" data-delay="0.2">I build clean, accessible, and fast web interfaces with modern JavaScript and a minimalist, human-centered approach.</p>
-          <div class="hero-cta reveal" data-delay="0.3">
-            <a class="button" href="#projects">View Projects</a>
-            <a class="button ghost" href="#contact">Get in Touch</a>
+    <main id="home" tabindex="-1">
+      <!-- Hero -->
+      <section class="section hero" aria-labelledby="hero-heading">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 id="hero-heading" class="title reveal">Samuel W. Getaneh</h1>
+            <p class="subtitle reveal" data-delay="0.1">
+              Beginner Full-Stack (Front-End-Focused) Developer
+            </p>
+            <p class="lede reveal" data-delay="0.2">
+              I build clean, accessible, and fast web interfaces with modern
+              JavaScript and a minimalist, human-centered approach.
+            </p>
+            <div class="hero-cta reveal" data-delay="0.3">
+              <a class="button" href="#projects">View Projects</a>
+              <a class="button ghost" href="#contact">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero-3d reveal" data-delay="0.35">
+            <div
+              id="three-container"
+              class="three-container"
+              aria-hidden="true"
+            >
+              <div class="three-preloader" aria-live="polite">Loading 3D…</div>
+            </div>
           </div>
         </div>
-        <div class="hero-3d reveal" data-delay="0.35">
-          <div id="three-container" class="three-container" aria-hidden="true">
-            <div class="three-preloader" aria-live="polite">Loading 3D…</div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about" aria-labelledby="about-heading">
+        <div class="container grid-2">
+          <div class="about-media reveal">
+            <img
+              src="https://kmab5.github.io/lambdadark.png"
+              alt="Portrait/logo of Samuel W. Getaneh"
+              width="600"
+              height="600"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="about-copy reveal" data-delay="0.1">
+            <h2 id="about-heading">About</h2>
+            <p>
+              I'm a developer focused on clarity, performance, and craft. I
+              enjoy turning ideas into robust, maintainable systems and
+              interfaces. My work emphasizes accessibility, speed, and a
+              brutalist minimalism that foregrounds content and intent.
+            </p>
+            <ul class="tags" role="list">
+              <li>JavaScript</li>
+              <li>Accessibility</li>
+              <li>CSS Architecture</li>
+              <li>Performance</li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- About -->
-    <section id="about" class="section about" aria-labelledby="about-heading">
-      <div class="container grid-2">
-        <div class="about-media reveal">
-          <img src="https://kmab5.github.io/lambdadark.png" alt="Portrait/logo of Samuel W. Getaneh" width="600" height="600" loading="lazy" decoding="async">
-        </div>
-        <div class="about-copy reveal" data-delay="0.1">
-          <h2 id="about-heading">About</h2>
-          <p>
-            I'm a developer focused on clarity, performance, and craft. I enjoy turning ideas into
-            robust, maintainable systems and interfaces. My work emphasizes accessibility, speed, and
-            a brutalist minimalism that foregrounds content and intent.
-          </p>
-          <ul class="tags" role="list">
-            <li>JavaScript</li>
-            <li>Accessibility</li>
-            <li>CSS Architecture</li>
-            <li>Performance</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="section projects" aria-labelledby="projects-heading">
-      <div class="container">
-        <h2 id="projects-heading" class="reveal">Projects</h2>
-        <div class="projects-grid">
-          <!-- Project Card Template -->
-          <!-- <article class="card reveal" data-delay="0.05">
+      <!-- Projects -->
+      <section
+        id="projects"
+        class="section projects"
+        aria-labelledby="projects-heading"
+      >
+        <div class="container">
+          <h2 id="projects-heading" class="reveal">Projects</h2>
+          <div class="projects-grid">
+            <!-- Project Card Template -->
+            <!-- <article class="card reveal" data-delay="0.05">
             <a class="card-link" href="#" aria-label="Project Alpha details">
               <div class="card-media">
                 <img src="https://picsum.photos/800/600?random=1" alt="Screenshot of Project Alpha" width="800" height="600" loading="lazy" decoding="async">
@@ -124,177 +184,374 @@
               </div>
             </a>
           </article> -->
-          <!-- Projects -->
-           <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://github.com/kmab5/booknotes.ang" target="_blank" rel="noopener" aria-label="Booknotes.ang details">
-              <div class="card-media">
-                <img src="https://emojiapi.dev/api/v1/books/512.png" alt="Books Emoji" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Booknotes</h3>
-                <p>Personal library and reading notes tracker with book covers powered by Open Library API.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <!-- Projects -->
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://github.com/kmab5/booknotes.ang"
+                target="_blank"
+                rel="noopener"
+                aria-label="Booknotes.ang details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://emojiapi.dev/api/v1/books/512.png"
+                    alt="Books Emoji"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Booknotes</h3>
+                  <p>
+                    Personal library and reading notes tracker with book covers
+                    powered by Open Library API.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
 
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://peronayzer.onrender.com/" target="_blank" rel="noopener" rel="noopener" aria-label="Peronayzer details">
-              <div class="card-media">
-                <img src="https://emojiapi.dev/api/v1/performing_arts/512.png" alt="Peronayzer Icon" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Personayzer</h3>
-                <p>AI-powered persona generator with DiceBear avatars for creative identity building.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://peronayzer.onrender.com/"
+                target="_blank"
+                rel="noopener"
+                rel="noopener"
+                aria-label="Peronayzer details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://emojiapi.dev/api/v1/performing_arts/512.png"
+                    alt="Peronayzer Icon"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Personayzer</h3>
+                  <p>
+                    AI-powered persona generator with DiceBear avatars for
+                    creative identity building.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
 
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://github.com/kmab5/blogger.ang" target="_blank" rel="noopener" aria-label="Blogger.ang details">
-              <div class="card-media">
-                <img src="https://emojiapi.dev/api/v1/memo/512.png" alt="Memo Emoji" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Blogger</h3>
-                <p>Lightweight blogging platform built with Node.js and EJS for seamless content publishing.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://github.com/kmab5/blogger.ang"
+                target="_blank"
+                rel="noopener"
+                aria-label="Blogger.ang details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://emojiapi.dev/api/v1/memo/512.png"
+                    alt="Memo Emoji"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Blogger</h3>
+                  <p>
+                    Lightweight blogging platform built with Node.js and EJS for
+                    seamless content publishing.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
 
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://gebeta-z1yt.onrender.com/" target="_blank" rel="noopener" aria-label="Gebeta details">
-              <div class="card-media">
-                <img src="https://gebeta-z1yt.onrender.com/assets/favicon.png" alt="Gebeta Icon" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Gebeta</h3>
-                <p>Modern browser-based rendition of the traditional Ethiopian game Gebeta (Mancala).</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://gebeta-z1yt.onrender.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Gebeta details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://gebeta-z1yt.onrender.com/assets/favicon.png"
+                    alt="Gebeta Icon"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Gebeta</h3>
+                  <p>
+                    Modern browser-based rendition of the traditional Ethiopian
+                    game Gebeta (Mancala).
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
 
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://nvp-kmab.vercel.app/" target="_blank" rel="noopener" aria-label="NVP details">
-              <div class="card-media">
-                <img src="https://emojiapi.dev/api/v1/game_die/512.png" alt="Game Die Emoji" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>NVP</h3>
-                <p>Minimalist logical game built with native HTML, CSS, and JavaScript.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://nvp-kmab.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                aria-label="NVP details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://emojiapi.dev/api/v1/game_die/512.png"
+                    alt="Game Die Emoji"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>NVP</h3>
+                  <p>
+                    Minimalist logical game built with native HTML, CSS, and
+                    JavaScript.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
 
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://medi-exe.vercel.app/" target="_blank" rel="noopener" aria-label="Medi.exe details">
-              <div class="card-media">
-                <img src="https://medi-exe.vercel.app/assets/img/favicon.png" alt="Medi.exe Icon" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Medi.exe</h3>
-                <p>Artist portfolio website showcasing works through a clean and minimal design.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://medi-exe.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Medi.exe details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://medi-exe.vercel.app/assets/img/favicon.png"
+                    alt="Medi.exe Icon"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Medi.exe</h3>
+                  <p>
+                    Artist portfolio website showcasing works through a clean
+                    and minimal design.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
 
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="http://beyondmarketingeth.com/" target="_blank" rel="noopener" aria-label="Beyond Marketing Website details">
-              <div class="card-media">
-                <img src="http://beyondmarketingeth.com/img/arrow_green.png" alt="Beyond Marketing Icon" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Beyond Marketing</h3>
-                <p>Company website offering creative digital marketing solutions and branding services.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
-          <!-- Exceed -->
-          <article class="card reveal" data-delay="0.2">
-            <a class="card-link" href="https://www.exceedpd.com/" target="_blank" rel="noopener" aria-label="Exceed Printing Website details">
-              <div class="card-media">
-                <img src="https://www.exceedpd.com/exceed%201.png" alt="Exceed Printing Icon" width="800" height="600" loading="lazy" decoding="async">
-              </div>
-              <div class="card-body">
-                <h3>Exceed Printing</h3>
-                <p>Modern React-based website for a printing and design company with a sleek user experience.</p>
-                <span class="underline">Explore</span>
-              </div>
-            </a>
-          </article>
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="http://beyondmarketingeth.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Beyond Marketing Website details"
+              >
+                <div class="card-media">
+                  <img
+                    src="http://beyondmarketingeth.com/img/arrow_green.png"
+                    alt="Beyond Marketing Icon"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Beyond Marketing</h3>
+                  <p>
+                    Company website offering creative digital marketing
+                    solutions and branding services.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
+            <!-- Exceed -->
+            <article class="card reveal" data-delay="0.2">
+              <a
+                class="card-link"
+                href="https://www.exceedpd.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Exceed Printing Website details"
+              >
+                <div class="card-media">
+                  <img
+                    src="https://www.exceedpd.com/exceed%201.png"
+                    alt="Exceed Printing Icon"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3>Exceed Printing</h3>
+                  <p>
+                    Modern React-based website for a printing and design company
+                    with a sleek user experience.
+                  </p>
+                  <span class="underline">Explore</span>
+                </div>
+              </a>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <!-- Contact -->
+      <section
+        id="contact"
+        class="section contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container">
+          <h2 id="contact-heading" class="reveal">Contact</h2>
+          <div
+            class="socials reveal"
+            data-delay="0.15"
+            aria-label="Social links"
+          >
+            <p class="muted">Find me on:</p>
+            <div class="social-buttons" role="list">
+              <a
+                class="social"
+                href="https://github.com/kmab5"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+                role="listitem"
+                >GitHub</a
+              >
+              <a
+                class="social"
+                href="https://linkedin.com/in/samuel-worash-getaneh"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+                role="listitem"
+                >LinkedIn</a
+              >
+              <a
+                class="social"
+                href="https://twitter.com/kmab_5"
+                target="_blank"
+                rel="noopener"
+                aria-label="Twitter"
+                role="listitem"
+                >Twitter</a
+              >
+              <a
+                class="social"
+                href="mailto:samuelworash@gmail.com"
+                aria-label="Email"
+                role="listitem"
+                >Email</a
+              >
+            </div>
+          </div>
+          <p class="reveal" data-delay="0.05">
+            Prefer email? Use the form or write to
+            <a href="mailto:samuelworash@gmail.com">samuelworash@gmail.com</a>.
+          </p>
+          <form
+            class="contact-form reveal"
+            data-delay="0.1"
+            action="https://formsubmit.co/samuelworash@gmail.com"
+            method="POST"
+          >
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="button" type="submit">Send</button>
+              <a class="button ghost" href="mailto:samuelworash@gmail.com"
+                >Open Mail</a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
       <div class="container">
-        <h2 id="contact-heading" class="reveal">Contact</h2>
-        <div class="socials reveal" data-delay="0.15" aria-label="Social links">
-          <p class="muted">Find me on:</p>
-          <div class="social-buttons" role="list">
-            <a class="social" href="https://github.com/kmab5" target="_blank" rel="noopener" aria-label="GitHub" role="listitem">GitHub</a>
-            <a class="social" href="https://linkedin.com/in/samuel-worash-getaneh" target="_blank" rel="noopener" aria-label="LinkedIn" role="listitem">LinkedIn</a>
-            <a class="social" href="https://twitter.com/kmab_5" target="_blank" rel="noopener" aria-label="Twitter" role="listitem">Twitter</a>
-            <a class="social" href="mailto:samuelworash@gmail.com" aria-label="Email" role="listitem">Email</a>
-          </div>
-        </div>
-        <p class="reveal" data-delay="0.05">Prefer email? Use the form or write to <a href="mailto:samuelworash@gmail.com">samuelworash@gmail.com</a>.</p>
-        <form class="contact-form reveal" data-delay="0.1" action="https://formsubmit.co/samuelworash@gmail.com" method="POST">
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name" required>
-          </div>
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <div class="form-actions">
-            <button class="button" type="submit">Send</button>
-            <a class="button ghost" href="mailto:samuelworash@gmail.com">Open Mail</a>
-          </div>
-        </form>
+        <p>
+          © <span id="year"></span> kmab. Built with native web technologies.
+        </p>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <p>© <span id="year"></span> kmab. Built with native web technologies.</p>
-    </div>
-  </footer>
+    <noscript>
+      <div class="noscript">
+        This site works best with JavaScript enabled for theme and motion.
+      </div>
+    </noscript>
 
-  <noscript>
-    <div class="noscript">This site works best with JavaScript enabled for theme and motion.</div>
-  </noscript>
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Samuel W. Getaneh",
-      "url": "https://kmab5.github.io/",
-      "jobTitle": "Beginner Full-Stack Developer (Front-End Focused)",
-      "description": "Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach.",
-      "image": "https://kmab5.github.io/lambdadark.png",
-      "sameAs": [
-        "https://github.com/kmab5",
-        "https://twitter.com/kmab_5",
-        "https://linkedin.com/in/samuel-worash-getaneh"
-      ]
-    }
-  </script>
-</body>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Samuel W. Getaneh",
+        "url": "https://kmab5.github.io/",
+        "jobTitle": "Beginner Full-Stack Developer (Front-End Focused)",
+        "description": "Beginner full-stack web developer (front-end focused) crafting clean, accessible, and performant interfaces with modern JavaScript and a minimalist, human-centered design approach.",
+        "image": "https://kmab5.github.io/lambdadark.png",
+        "sameAs": [
+          "https://github.com/kmab5",
+          "https://twitter.com/kmab_5",
+          "https://linkedin.com/in/samuel-worash-getaneh"
+        ]
+      }
+    </script>
+  </body>
 </html>
-
