@@ -1,0 +1,29 @@
+{
+  "name": "Samuel W. Getaneh",
+  "short_name": "SWG",
+  "description": "Engineer, mathematician, game-builder.",
+  "start_url": "/f1-portfolio/",
+  "scope": "/f1-portfolio/",
+  "display": "standalone",
+  "background_color": "#0E0E11",
+  "theme_color": "#0E0E11",
+  "icons": [
+    {
+      "src": "web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
